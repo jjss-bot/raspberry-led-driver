@@ -1,3 +1,8 @@
+/* This module creates a empty folter on the /proc directory 
+*  to test it use journalctl -kf to see the kernel messages,
+* and try to read and write the folder named "mydir".
+*/
+
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/init.h>
