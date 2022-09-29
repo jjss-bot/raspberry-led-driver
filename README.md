@@ -12,9 +12,11 @@ https://www.youtube.com/watch?v=pIUTaMKq0Xc working on a raspberry pi.
  - The appropiate linux headers according to your kernel version
  
  ## How to use it
- - open the console
+ - open the console 
  - run make
- - To see what the driver can do refer to the video mentioned earlier
+ - use sudo insmod ./file_name.ko to load the module
+ - use sudo rmmod file_name to unload the module
+ - To see what the driver can do, refer to the video mentioned earlier.
  
  
 ## Note
